@@ -1,0 +1,31 @@
+# Maven
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+
+# Test output
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# Logs
+logs/
+*.log
+
+# Screenshots
+screenshots/
+test-output/screenshots/
+
+# Reports
+reports/
+extent-reports/
+
+# OS
+.DS_Store
+Thumbs.db
