@@ -7,6 +7,7 @@ import com.obem.utils.ConfigReader;
 
 public class RetryAnalyzer implements IRetryAnalyzer {
 
+	//Test Jenkins auto trigger
     private int retryCount = 0;
     private final int maxRetryCount = ConfigReader.getInt("retryCount");
 
