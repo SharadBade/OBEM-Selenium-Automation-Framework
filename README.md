@@ -150,10 +150,3 @@ test-output/ExtentReport.html
 test-output/automation.log
 test-output/screenshots/
 ```
-
-## Interview Explanation
-
-> We developed a Selenium automation framework for OBEM using Java, TestNG and Maven. The framework follows Page Object Model. We maintain common browser and Selenium functionality in BaseTest, BasePage and utility classes. DriverFactory manages ThreadLocal WebDriver instances, allowing parallel execution. Test data is maintained in Excel and read using Apache POI through a TestNG DataProvider. ExtentReports is used for HTML reporting, Log4j2 for runtime logging, and a TestNG listener captures screenshots on failures. A RetryAnalyzer handles transient failures. The project is maintained in Git and integrated with Jenkins, where Maven executes the TestNG smoke or regression suite and publishes reports and JUnit results.
-
-## Important
-This is an interview-ready framework skeleton, not a copy of Johnson Controls internal source code. Real OBEM URLs, credentials, DOM locators, API endpoints and business rules must be supplied by your project environment.
